@@ -35,7 +35,7 @@ export class BootScene extends Phaser.Scene {
       frameHeight: 16
     });
     for (const k of SFX_KEYS) this.load.audio(k, `assets/audio/sfx/${k}.ogg`);
-    this.load.audio('music_battle', 'assets/audio/music_battle.mp3');
+    this.load.audio('music_battle', 'assets/audio/music_battle.m4a');
     this.load.audio('music_title', 'assets/audio/music_title.mp3');
   }
 

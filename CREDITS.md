@@ -7,7 +7,7 @@ Nothing here requires attribution by license — credits are given anyway, gladl
 | --- | --- | --- | --- |
 | `public/assets/sprites/tilemap_packed.png` (Tiny Dungeon) | [kenney.nl/assets/tiny-dungeon](https://kenney.nl/assets/tiny-dungeon) | Kenney | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | `public/assets/audio/sfx/*` (selected from Impact Sounds, Interface Sounds, Digital Audio) | [kenney.nl/assets](https://kenney.nl/assets) | Kenney | CC0 |
-| `public/assets/audio/music_battle.mp3` ("Battle Theme A") | [opengameart.org/content/battle-theme-a](https://opengameart.org/content/battle-theme-a) | cynicmusic — [cynicmusic.com](https://cynicmusic.com) / [pixelsphere.org](https://pixelsphere.org) | CC0 |
+| `public/assets/audio/music_battle.m4a` ("Battle Theme A", compressed for web delivery) | [opengameart.org/content/battle-theme-a](https://opengameart.org/content/battle-theme-a) | cynicmusic — [cynicmusic.com](https://cynicmusic.com) / [pixelsphere.org](https://pixelsphere.org) | CC0 |
 | `public/assets/audio/music_title.mp3` ("Town Theme RPG") | [opengameart.org/content/town-theme-rpg](https://opengameart.org/content/town-theme-rpg) | cynicmusic — cynicmusic.com / pixelsphere.org | CC0 |
 | `public/assets/fonts/PressStart2P-Regular.ttf` | [fonts.google.com/specimen/Press+Start+2P](https://fonts.google.com/specimen/Press+Start+2P) | CodeMan38 (Cody Boisclair) | [SIL OFL 1.1](https://openfontlicense.org/) |
 | Everything else (code, generated glow/FX textures, ground composite, icons) | this repo | built one-shot by Claude (Fable 5) | MIT |
