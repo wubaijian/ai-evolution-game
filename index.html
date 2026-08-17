@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="GRAVEHORDE——描述精灵进化方向，闯过三波敌人并击败双阶段首领。" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>GRAVEHORDE</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #0a0a12;
+        height: 100%;
+        overflow: hidden;
+      }
+      #game {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #game canvas {
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+      .boot-msg {
+        color: #6cc644;
+        font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game"><span class="boot-msg">正在唤醒精灵世界……</span></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

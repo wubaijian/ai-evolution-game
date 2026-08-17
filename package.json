@@ -1,0 +1,25 @@
+{
+  "name": "ai-evolution-game",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A browser action-game POC for constrained, AI-assisted creature evolution",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "gateway:setup": "sh gateway/litellm/setup.sh",
+    "gateway:start": "sh gateway/litellm/start.sh",
+    "gateway:check": "sh gateway/litellm/check.sh"
+  },
+  "dependencies": {
+    "openai": "^7.4.0",
+    "phaser": "3.90.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}

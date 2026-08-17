@@ -1,0 +1,41 @@
+{
+  "statBudget": 10,
+  "statMax": 4,
+  "statStrengthMin": 3,
+  "statWeaknessMax": 2,
+  "abilityBudget": 8,
+  "requireFullAbilityBudget": true,
+  "abilityCosts": {
+    "flight": 3,
+    "burrow": 3,
+    "aquatic": 3,
+    "ranged_attack": 2,
+    "chain_lightning": 2,
+    "air_dash": 1,
+    "eruption_burst": 3,
+    "ambush": 2,
+    "area_vortex": 2,
+    "slow": 1,
+    "single_target_burst": 3,
+    "high_speed_dash": 2,
+    "shield": 2,
+    "stable_block": 2
+  },
+  "specialMovementAbilities": ["flight", "burrow", "aquatic"],
+  "highValueCoreAbilities": ["chain_lightning", "eruption_burst", "area_vortex", "single_target_burst"],
+  "movementAbilityByForm": {
+    "flight": "flight",
+    "burrow": "burrow",
+    "aquatic": "aquatic"
+  },
+  "incompatibleAbilities": [
+    {
+      "abilities": ["air_dash", "stable_block"],
+      "reason": "高速闪避与稳定格挡互斥。"
+    },
+    {
+      "abilities": ["area_vortex", "single_target_burst"],
+      "reason": "最大范围控制不能同时拥有最大单体爆发。"
+    }
+  ]
+}

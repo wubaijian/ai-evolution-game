@@ -1,0 +1,18 @@
+# This file contains no provider secrets. Provider models will be generated
+# from the local developer console in the next integration step.
+model_list: []
+
+litellm_settings:
+  drop_params: true
+  num_retries: 2
+  request_timeout: 60
+  telemetry: false
+
+router_settings:
+  routing_strategy: simple-shuffle
+  num_retries: 2
+  timeout: 60
+  fallbacks: []
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "stormwing_archer",
+    "name": "雷翼射手",
+    "nameZh": "雷翼射手",
+    "tagline": "飞行 / 远程 / 敏捷",
+    "color": "#7fd4ff",
+    "tint": 8377599,
+    "movementForm": "flight",
+    "attackForm": "ranged",
+    "stats": { "attack": 3, "speed": 4, "defense": 1, "energy": 2 },
+    "abilities": ["flight", "ranged_attack", "chain_lightning", "air_dash"],
+    "strengths": ["快速远程压制", "机动能力最强"],
+    "tradeoffs": ["生存能力最低", "被包围时较弱"],
+    "modifiers": {
+      "maxHpMult": 0.75,
+      "moveSpeedMult": 1.18,
+      "primaryDamageMult": 0.9,
+      "primaryCooldownMult": 0.72,
+      "projectileSpeedMult": 1.25,
+      "coreDamageMult": 0.9,
+      "coreRadiusMult": 0.9,
+      "coreCooldownMult": 0.85,
+      "dodgeCooldownMult": 0.75,
+      "dodgeSpeedMult": 1.2
+    }
+  },
+  {
+    "id": "burrow_hunter",
+    "name": "地穴猎手",
+    "nameZh": "地穴猎手",
+    "tagline": "遁地 / 伏击 / 爆发",
+    "color": "#ff9a58",
+    "tint": 16751192,
+    "movementForm": "burrow",
+    "attackForm": "melee",
+    "stats": { "attack": 4, "speed": 2, "defense": 3, "energy": 1 },
+    "abilities": ["burrow", "eruption_burst", "ambush"],
+    "strengths": ["爆发伤害最高", "近身战斗强势"],
+    "tradeoffs": ["有效攻击距离短", "能量最低"],
+    "modifiers": {
+      "maxHpMult": 1.2,
+      "moveSpeedMult": 0.9,
+      "primaryDamageMult": 1.45,
+      "primaryCooldownMult": 1.25,
+      "projectileSpeedMult": 0.78,
+      "coreDamageMult": 1.4,
+      "coreRadiusMult": 0.9,
+      "coreCooldownMult": 1.2,
+      "dodgeCooldownMult": 1.15,
+      "dodgeSpeedMult": 0.85
+    }
+  },
+  {
+    "id": "tidal_shaman",
+    "name": "潮汐灵巫",
+    "nameZh": "潮汐灵巫",
+    "tagline": "水栖 / 范围 / 控制",
+    "color": "#63e6c4",
+    "tint": 6547140,
+    "movementForm": "aquatic",
+    "attackForm": "splash",
+    "stats": { "attack": 2, "speed": 2, "defense": 2, "energy": 4 },
+    "abilities": ["aquatic", "ranged_attack", "area_vortex", "slow"],
+    "strengths": ["范围控制最广", "核心技能更频繁"],
+    "tradeoffs": ["单体伤害最低", "陆地机动一般"],
+    "modifiers": {
+      "maxHpMult": 1,
+      "moveSpeedMult": 0.95,
+      "primaryDamageMult": 0.75,
+      "primaryCooldownMult": 1.05,
+      "projectileSpeedMult": 0.9,
+      "coreDamageMult": 0.9,
+      "coreRadiusMult": 1.45,
+      "coreCooldownMult": 0.7,
+      "dodgeCooldownMult": 0.9,
+      "dodgeSpeedMult": 1.05
+    }
+  }
+]
